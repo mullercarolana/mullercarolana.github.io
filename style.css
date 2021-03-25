@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    align-items: center;
+}
+
+/*Style Header*/
+.header {
+    background-color: #04A2C2;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+/*Style Navegation Bar*/
+.topnav {
+    overflow: hidden;
+    background: linear-gradient(60deg,#7019C2,#04A2C2)
+}
+
+/*Style Topnav Links */
+.topnav a {
+    float:left;
+    display:block;
+    color: #fff;
+    text-align: center;
+    width: 33.33%;
+    height: 50px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color Topnav Links */
+.topnav a:hover {
+    background-color: #04A2C2;
+    color: black;
+}
+
+/*Column*/
+.column {
+    float:left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 50%;
+    text-align:justify;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Configuration Text*/
+.column h3 {
+    padding-top: 15px;
+}
+
+.column p {
+    font-size: 15px;
+    text-align:justify;
+}
+
+.column li {
+    font-size: 15px;
+}
+
+/*Configuration Footer*/
+.footer {
+    text-align: center;
+    font-size: 15px;
+    padding: 30px;
+    background: linear-gradient(60deg,#7019C2,#04A2C2);
+    color: #fff;
+}
